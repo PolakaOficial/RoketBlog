@@ -1,6 +1,7 @@
 Índice
 * [Sobre](#💻Sobre)
 * [techs](#🚀Tech)
+* [Mais info](#💡informações)
 
 # 💻Sobre
 <p>Olá a todos! Esse projeto foi um dos desefios feito pela Rocketseat, o intuito foi fazer uma homepage para um blog.</p>
@@ -13,5 +14,5 @@
   <li>JavaScript</li>
 </ul>
 
-# 💡 Mais informações
-<p>Um dos requisitos para o desafio era Seguir o layout do Figma, fiz uns acréscimos no projeto, deixei o projeto responsivo com a resolução mínima de 320px e a resolução máxima 1440px, adicionei animações nos botões e nas postagens.</p>
+# 💡Mais informações
+<p>Um dos requisitos para o desafio era Seguir o layout do Figma, fiz uns acréscimos no projeto, deixei o projeto responsivo com a resolução mínima de 320px e a resolução máxima 1440px, adicionei animações nos botões e nas postagens, foi usado no HTML tags semânticas</p>

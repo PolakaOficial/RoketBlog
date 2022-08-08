@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'roboto';
+}
+
+.nav-button{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: black;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.nav-button i{
+    color: white;
+}
+
+.overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    position: fixed;
+    width: 0;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;  color: #818181;
+    display: block;
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color: #f1f1f1;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (min-width: 320px) {
+    header{
+        width: 100%;
+        height: 587px;
+        background-color: #290742;
+    }
+    .DesktopNav{
+        display: none;
+    }
+    .MobileNav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navLogo img{
+        padding: 10px;
+    }
+    #conteudoSection{
+        width: 100%;
+        padding: 10px;
+    }
+    .conteudoHeard h1{
+        color: #9E6DC2;
+        padding: 10px;
+    }
+    .conteudoHeard p{
+        color: #FBF6FF;
+        padding: 10px;
+    }
+    .containerVeja{
+        display: flex;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .containerVeja a{
+        text-decoration: none;
+        color: #9E6DC2;
+    }
+}
+@media screen and (min-width: 531px) {
+    header{
+        height: 620px;
+    }
+    
+}
+@media screen and (min-width: 557px) {
+    .containerSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #conteudoSection{
+        width: 550px;
+        height: 346px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    header{
+        background-color: #290742;
+        border-bottom: 4px solid #4FFF4B;
+    }
+    
+    .containerSection{
+        display: flex;
+        gap: 30px;
+    }
+    .conteudoHeard{
+        font-size: 20px;
+    }
+    .containerVeja a{
+        transition: 0.4s;
+    }
+    .containerVeja a:hover{
+        border-bottom: 3px solid #4FFF4B;
+        padding: 4px;
+        font-weight: bold;
+    }
+    .MobileNav{
+        display: none;
+    }
+    header{
+        height: 484px;
+    }
+    .DesktopNav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 30px 10px 30px;
+    }
+    #LogoDesk{
+        width: 70%;
+    }
+    .containerAncora{
+        display: flex;
+        gap: 15px;
+    }
+    .containerAncora a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        transition: 0.4s;
+    }
+    .containerAncora a:hover{
+        border-left: 3px solid #4FFF4B;
+        padding-left: 4px;
+        font-weight: bold;
+    }
+    .containerPesquisa{
+        display: flex;
+    }
+    .containerPesquisa input{
+        background-color: #170027;
+        color: white;
+        padding: 0 0 0 10px;
+        border-radius: 4px 0 0 4px;
+        border: none;
+        
+    }
+    .containerPesquisa input::placeholder{
+        color: #FBF6FF;
+        padding: 0 0 0 10px;
+        font-family: 'roboto';
+    }
+    .containerPesquisa button{
+        width: 50px;
+        background-color: #9E6DC2;
+        cursor: pointer;
+        border-radius: 0 4px 4px 0;
+        border: none;
+        
+    }
+    .containerSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 30px;
+    }
+    
+}
+

@@ -1,0 +1,84 @@
+@media screen and (min-width: 320px) {
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .containerOne{
+        cursor: pointer;
+    }
+    .imagens{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .pDaDescricao{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .titloPag{
+        padding: 5px;
+        color: #290742;
+    }
+    .pPag{
+        padding: 5px;
+    }
+    .containerTwo{
+        cursor: pointer;
+    }
+    .containerThree{
+        cursor: pointer;
+    }
+    .mainContainerTwo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mainContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .mainContainerTwo{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .mainContainer{
+        padding: 60px;
+    }
+    .containerTwo{
+        padding: 10px;
+    }
+    .containerOne, .containerTwo, .containerThree{
+        transition: 0.2s;
+    }
+    .containerOne:hover{
+        font-weight: bold;
+    }
+    .containerTwo:hover{
+        font-weight: bold;
+    }
+    .containerThree:hover{
+        font-weight: bold;
+    }
+    .mainContainerTwo{
+        padding: 60px;
+    }
+    .mainContainerTwoPostOne, .mainContainerTwoPostTwo, .mainContainerTwoPostThree{
+        transition: 0.2s;
+        cursor: pointer;
+    }
+    .mainContainerTwoPostOne:hover{
+        font-weight: bold;
+    }
+    .mainContainerTwoPostTwo:hover{
+        font-weight: bold;
+    }
+    .mainContainerTwoPostThree:hover{
+        font-weight: bold;
+    }
+}

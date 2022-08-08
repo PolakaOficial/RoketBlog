@@ -13,5 +13,5 @@
   <li>JavaScript</li>
 </ul>
 
-# 💡 Como começar
-<p>Um dos requisitos para o desafio era Seguir o layout do Figma, fiz uns acressimos</p>
+# 💡 Mais informações
+<p>Um dos requisitos para o desafio era Seguir o layout do Figma, fiz uns acréscimos no projeto, deixei o projeto responsivo com a resolução mínima de 320px e a resolução máxima 1440px, adicionei animações nos botões e nas postagens.</p>
